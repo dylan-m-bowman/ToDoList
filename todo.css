@@ -1,0 +1,55 @@
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #ccc solid;
+    width: auto;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px #ccc solid;
+    padding: 20px;
+}
+
+.box1 {
+    width: auto;
+
+}
+
+li, button {
+    cursor: pointer;
+}
+
+.toDo {
+    cursor: pointer;
+}
+
+@keyframes fade{
+    from{opacity: 1}
+    to{opacity: 0}
+}
+
+.done {
+    text-decoration: line-through;
+    animation-name: fade;
+    animation-duration: 1s;
+    color: red
+}
+
+
+
+/*.complete {
+    animation-name: fade;
+    animation-duration: 1s;
+}*/
